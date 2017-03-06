@@ -39,8 +39,8 @@ my stock quotes on my home screen.
 
 #### Jamal says:
 
-I found a bug in your app. Right now when I search for a stock quote that doesn't exist, 
-the app crashes.
+~~I found a bug in your app. Right now when I search for a stock quote that doesn't exist, 
+the app crashes.~~
 
 #### Xaio-lu says:
 
