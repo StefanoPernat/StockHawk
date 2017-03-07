@@ -64,6 +64,15 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         swipeRefreshLayout.setRefreshing(true);
         onRefresh();
 
+        //  Network Connection check as suggested, ux review
+        if (!networkUp()){
+            Toast.makeText(
+                    this,
+                    getString(R.string.toast_no_connectivity2),
+                    Toast.LENGTH_SHORT
+            ).show();
+        }
+
         QuoteSyncJob.initialize(this);
         getSupportLoaderManager().initLoader(STOCK_LOADER, null, this);
 
@@ -119,6 +128,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
     void addStock(String symbol) {
         if (symbol != null && !symbol.isEmpty()) {
 
+            //  Network Connection check as suggested, ux review
             if (networkUp()) {
                 swipeRefreshLayout.setRefreshing(true);
             } else {
