@@ -25,6 +25,9 @@
         COMPLETED RUBIC PART 4
         Added content description on the fab
         button
+
+        COMPLETED RUBIC PART 5
+        inserted bottom|end
      -->
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
