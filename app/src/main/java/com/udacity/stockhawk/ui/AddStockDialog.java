@@ -46,7 +46,7 @@ public class AddStockDialog extends DialogFragment {
         });
         builder.setView(custom);
 
-        //  COMPLETED RUBIC PART 1
+        //  COMPLETED RUBIC PART 4
         //  title is better for part I instead of message
 
         //builder.setMessage(getString(R.string.dialog_title));
