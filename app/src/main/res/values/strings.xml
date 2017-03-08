@@ -44,5 +44,7 @@
 
     <!-- Stock Trend Activity -->
     <string name="stock_trend_title">%s History</string>
+    <string name="stock_trend_label">Symbol %s Trends</string>
+    <string name="stock_trend_content_description">Symbol %s Graph</string>
 
 </resources>
