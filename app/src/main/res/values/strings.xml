@@ -42,4 +42,7 @@
     <!-- Accessibility strings  -->
     <string name="add_stock_content_description">New Stock</string>
 
+    <!-- Stock Trend Activity -->
+    <string name="stock_trend_title">%s History</string>
+
 </resources>
